@@ -2,7 +2,9 @@ html {
   box-sizing: border-box;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: inherit;
 }
 
@@ -12,11 +14,12 @@ html {
 }
 
 .body {
-  background-color: #999;
+  background-color: white;
 }
 
 .darkBackground {
-  background-color: blue;
+  background-color: rgb(59, 59, 66);
+  color: rgb(207, 199, 199);
 }
 
 .header {
@@ -25,6 +28,15 @@ html {
 
 .table {
   border-collapse: collapse;
+  background-color: white;
+}
+
+.tableRow:nth-child(even) {
+  background: rgb(230, 230, 237);
+}
+
+.tableRow:hover {
+  background: rgb(200, 177, 181);
 }
 
 .tableCell {
@@ -32,3 +44,8 @@ html {
   padding: 5px;
   text-align: center;
 }
+
+.tableHeader {
+  background: aqua;
+}
+
