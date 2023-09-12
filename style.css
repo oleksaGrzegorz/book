@@ -1,7 +1,26 @@
-.body {
-background-color: #999;
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
-.dark {
-    background-color: blue;
+.body {
+  background-color: #999;
+}
+
+.darkBackground {
+  background-color: blue;
+}
+
+.header {
+  text-shadow: 2px 2px 2px white;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.tableCell {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
 }
