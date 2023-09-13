@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body { 
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1000px;
