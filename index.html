@@ -11,39 +11,42 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
-
 <body class="body">
   <div class="container">
-    <nav>
+    <nav class="navigation">
       <ul>
-        <li>About me</li>
-        <li>My things</li>
-        <li>Click me</li>
-        <li>Table</li>
+        <li class="listItem"><a class="link" href="#main">About me</a></li>
+        <li class="listItem"><a class="link" href="#myThings">My things</a></li>
+        <li class="listItem"><a class="link" href="#clickMe">Click me</a></li>
+        <li class="listItem"><a class="link" href="#table">Table</a></li>
       </ul>
     </nav>
-    <!--add margin, padding, border, border radius, outline, shadow-->
     <header>
       <h1 class="header">Grzegorz Oleksa</h1>
     </header>
     <img class="image" src="/images/Obrazek.png" alt="my face" />
-    <main class="main">
+    <main class="main" id="main">
       <h2 class="subHeader">About me</h2>
+      <img href="/images/hello.png" alt="hello" />
       <p class="aboutMe">
         My name is Grzegorz. I am living and working in <em>Netherlands.</em> I
         love <strong>process of learning.</strong> Currently i am learning Dutch,
         English and programming.
       </p>
     </main>
-    <section class="section">
+    <section class="section" id="myThings">
       <h2 class="subHeader">My things</h2>
+      <img href="/images/calendar.png" alt="calendar" />
       <p>I like <b>gym</b>, <b>books</b> and <b>different languages.</b></p>
     </section>
-    <section class="section">
+    <section class="section" id="clickMe">
       <h2 class="subHeader">Click me</h2>
+      <p><img href="/images/fb.png" alt="fb account" /></p>
+    
       <button class="button">Set dark theme</button>
+      
     </section>
-    <section class="section">
+    <section class="section" id="table">
       <h2 class="subHeader">Table</h2>
       <table class="table">
         <caption>
@@ -70,11 +73,9 @@
           <td class="tableCell">Euro</td>
         </tr>
       </table>
-<button class="tableButton">I don't like this table! Hide it!</button>
-
+      <button class="tableButton">I don't like this table! Hide it!</button>
     </section>
     <footer>Place for footer</footer>
   </div>
 </body>
-
 </html>
