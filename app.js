@@ -7,3 +7,11 @@ buttonElement.addEventListener("click", () => {
     ? (buttonElement.innerText = "Set light theme")
     : (buttonElement.innerText = "Set dark theme");
 });
+
+let tableButtonElement = document.querySelector(".tableButton");
+let tableElement = document.querySelector(".table");
+
+tableButtonElement.addEventListener("click", () => {
+  tableElement.remove();
+  tableButtonElement.innerText = "Table disappear!";
+});
