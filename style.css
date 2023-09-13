@@ -39,9 +39,12 @@ body {
 }
 
 .image {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+  width: 20%;
+  border-radius: 30%;
+}
+
+.sectionImage {
+  width: 60%;
 }
 
 .section {
