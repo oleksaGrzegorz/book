@@ -8,13 +8,32 @@ html {
   box-sizing: inherit;
 }
 
-body { 
-  font-family: 'Raleway', sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1000px;
+  text-align: center;
+}
+
+.main {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.section {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
 }
 
 .body {
@@ -33,6 +52,7 @@ body {
 .table {
   border-collapse: collapse;
   background-color: white;
+  margin: 0 auto;
 }
 
 .tableRow:nth-child(even) {
@@ -52,4 +72,3 @@ body {
 .tableHeader {
   background: aqua;
 }
-
