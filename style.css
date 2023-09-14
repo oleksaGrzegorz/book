@@ -24,59 +24,11 @@ body {
   margin: 10px;
 }
 
-.image {
-  width: 20%;
-  border-radius: 30%;
-}
-
-.sectionImage {
-  width: 60%;
-  border-radius: 10px;
-}
-
-.section {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
-}
-
 .body {
   background-color: white;
 }
 
 .darkBackground {
-  background-color: rgb(126, 125, 125);
+  background-color: rgb(198, 191, 191);
 }
 
-.header {
-  text-shadow: 2px 2px 2px white;
-}
-
-.table {
-  border-collapse: collapse;
-  background-color: white;
-  margin: 0 auto;
-}
-
-.tableRow:nth-child(even) {
-  background: rgb(230, 230, 237);
-}
-
-.tableRow:hover {
-  background: rgb(200, 177, 181);
-}
-
-.tableCell {
-  border: 1px solid black;
-  padding: 5px;
-  text-align: center;
-}
-
-.tableHeader {
-  background: aqua;
-}
-
-.tableButton {
-  margin: 10px;
-  padding: 5px;
-}
