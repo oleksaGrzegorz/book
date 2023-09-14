@@ -8,6 +8,7 @@
   <script defer type="text/javascript" src="app.js"></script>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="navigation.css" />
+  <link rel="stylesheet" href="section.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
     <nav class="navigation">
       <ul class="navigation__unorderedList">
         <li class="navigation__listItem">
-          <a class="navigation__link" href="#main">About me</a>
+          <a class="navigation__link" href="#aboutMe">About me</a>
         </li>
         <li class="navigation__listItem">
           <a class="navigation__link" href="#myThings">My things</a>
@@ -34,79 +35,77 @@
         </li>
       </ul>
     </nav>
-    <main class="main" id="main">
-      <header>
-        <h1 class="header">Grzegorz Oleksa</h1>
-      </header>
-      <img class="image" src="/images/Obrazek.png" alt="my face" />
-      <h2 class="subHeader">About me</h2>
-      <img class="sectionImage" src="/images/hello.png" alt="hello" />
-      <p class="aboutMe">
+    <section class="section" id="aboutMe">
+      <h1 class="section__header">Grzegorz Oleksa</h1>
+      <img class="section__mainImage" src="/images/Obrazek.png" alt="my face" />
+      <h2 class="section__subHeader">About me</h2>
+      <img class="section__image" src="/images/hello.png" alt="hello" />
+      <p class="section__paragraph">
         My name is Grzegorz. I am living and working in <em>Netherlands.</em> I
-        love <strong>process of learning.</strong> Currently i am learning Dutch,
+        love <strong class="section__important">process of learning.</strong> Currently i am learning Dutch,
         English and programming.
       </p>
-    </main>
+    </section>
     <section class="section" id="myThings">
-      <h2 class="subHeader">My things</h2>
-      <img class="sectionImage" src="/images/calendar.png" alt="calendar" />
-      <p>I like <b>gym</b>, <b>books</b> and <b>different languages.</b></p>
+      <h2 class="section__subHeader">My things</h2>
+      <img class="section__image" src="/images/calendar.png" alt="calendar" />
+      <p class="section__paragraph">I like <b>gym</b>, <b>books</b> and <b>different languages.</b></p>
     </section>
     <section class="section" id="clickMe">
-      <h2 class="subHeader">Click me</h2>
-      <p><img class="sectionImage" src="/images/fb.png" alt="fb account" /></p>
-      <button class="button">Set dark theme</button>
+      <h2 class="section__subHeader">Click me</h2>
+      <p><img class="section__image" src="/images/fb.png" alt="fb account" /></p>
+      <button class="section__button js-button">Set dark theme</button>
     </section>
     <section class="section" id="table">
-      <h2 class="subHeader">Table</h2>
-      <table class="table">
+      <h2 class="section__subHeader">Table</h2>
+      <table class="section__table">
         <caption>
           Country information
         </caption>
         <tr>
-          <th class="tableCell tableHeader" scope="col">Country</th>
-          <th class="tableCell tableHeader" scope="col">Language</th>
-          <th class="tableCell tableHeader" scope="col">Currency</th>
+          <th class="section__tableCell section__tableHeader" scope="col">Country</th>
+          <th class="section__tableCell section__tableHeader" scope="col">Language</th>
+          <th class="section__tableCell section__tableHeader" scope="col">Currency</th>
         </tr>
-        <tr class="tableRow">
-          <td class="tableCell">Poland</td>
-          <td class="tableCell">Polish</td>
-          <td class="tableCell">Polish zloty</td>
+        <tr class="section__tableRow">
+          <td class="section__tableCell">Poland</td>
+          <td class="section__tableCell">Polish</td>
+          <td class="section__tableCell">Polish zloty</td>
         </tr>
-        <tr class="tableRow">
-          <td class="tableCell">Netherland</td>
-          <td class="tableCell">Dutch</td>
-          <td class="tableCell">Euro</td>
+        <tr class="section__tableRow">
+          <td class="section__tableCell">Netherland</td>
+          <td class="section__tableCell">Dutch</td>
+          <td class="section__tableCell">Euro</td>
         </tr>
-        <tr class="tableRow">
-          <td class="tableCell">Germany</td>
-          <td class="tableCell">German</td>
-          <td class="tableCell">Euro</td>
+        <tr class="section__tableRow">
+          <td class="section__tableCell">Germany</td>
+          <td class="section__tableCell">German</td>
+          <td class="section__tableCell">Euro</td>
         </tr>
       </table>
-      <button class="tableButton">I don't like this table! Hide it!</button>
+      <button class="section__tableButton js-tableButton">I don't like this table! Hide it!</button>
     </section>
     <section class="section">
-      <h2>Form</h2>
-      <form action="https://postman-echo.com/get" enctype="multipart/form-data">
-        <fieldset>
-          <legend>Personal data</legend>
+      <h2 class="section__subHeader">Form</h2>
+      <form class="section__form" action="https://postman-echo.com/get" enctype="multipart/form-data">
+        <fieldset class="section__formFieldset">
+          <legend class="section__formLegend">Personal data</legend>
           <p>
-            <label>Name and surname: <input name="name" required></label>
+            <label class="section__formLabel">Name and surname: <input name="name" required></label>
           </p>
           <p>
-            <label>Age: <input type="number" required></label>
+            <label class="section__formLabel">Age: <input type="number" required></label>
           </p>
           <p>
-            <label>City: <input value="Gdansk" required></label>
+            <label class="section__formLabel">City: <input value="Gdansk" required></label>
           </p>
           <p>
-            <label>Date of birth: <input type="date" required></label>
+            <label class="section__formLabel">Date of birth: <input type="date" required></label>
           </p>
           <p>
-            <label>Description: <textarea name="description"></textarea></label>
+            <label class="section__formLabel">Description: <textarea name="description"></textarea></label>
           </p>
-          <button>Send</button>
+          <button class="section__formButton">Send</button>
         </fieldset>
       </form>
     </section>
