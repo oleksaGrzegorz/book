@@ -1,0 +1,13 @@
+.navigation__listItem {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.navigation__link {
+  color: black;
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+  color: rgb(199, 191, 191);
+}
