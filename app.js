@@ -1,4 +1,4 @@
-let buttonElement = document.querySelector(".button");
+let buttonElement = document.querySelector(".js-button");
 let bodyElement = document.querySelector(".body");
 
 buttonElement.addEventListener("click", () => {
@@ -8,8 +8,8 @@ buttonElement.addEventListener("click", () => {
     : (buttonElement.innerText = "Set dark theme");
 });
 
-let tableButtonElement = document.querySelector(".tableButton");
-let tableElement = document.querySelector(".table");
+let tableButtonElement = document.querySelector(".js-tableButton");
+let tableElement = document.querySelector(".section__table");
 
 tableButtonElement.addEventListener("click", () => {
   tableElement.remove();
