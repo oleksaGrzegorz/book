@@ -7,6 +7,7 @@
   <title>Document</title>
   <script defer type="text/javascript" src="app.js"></script>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="navigation.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
@@ -18,18 +19,26 @@
 <body class="body">
   <div class="container">
     <nav class="navigation">
-      <ul>
-        <li class="listItem"><a class="link" href="#main">About me</a></li>
-        <li class="listItem"><a class="link" href="#myThings">My things</a></li>
-        <li class="listItem"><a class="link" href="#clickMe">Click me</a></li>
-        <li class="listItem"><a class="link" href="#table">Table</a></li>
+      <ul class="navigation__unorderedList">
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#main">About me</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#myThings">My things</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#clickMe">Click me</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#table">Table</a>
+        </li>
       </ul>
     </nav>
-    <header>
-      <h1 class="header">Grzegorz Oleksa</h1>
-    </header>
-    <img class="image" src="/images/Obrazek.png" alt="my face" />
     <main class="main" id="main">
+      <header>
+        <h1 class="header">Grzegorz Oleksa</h1>
+      </header>
+      <img class="image" src="/images/Obrazek.png" alt="my face" />
       <h2 class="subHeader">About me</h2>
       <img class="sectionImage" src="/images/hello.png" alt="hello" />
       <p class="aboutMe">
